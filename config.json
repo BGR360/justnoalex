@@ -5,15 +5,66 @@
         "title": "Just No Alex!",
         "description": "Just... no Alex.",
         "img_src": "/alex/justnoalex.png",
+        "img_href": "/oops-all-alex.html",
         "emote_name": ":justnoalex:",
+        "hide_name": true,
         "template": "alex.html.j2"
     },
     {
+        "path": "oops-all-alex.html",
+        "title": "Oops, All Alex!",
+        "description": "Oops, all Alex!",
+        "alexes": [
+            [
+                {
+                    "href": "/heartalex.html",
+                    "img_src": "/alex/heartalex.png",
+                    "img_alt": ":heartalex:"
+                },
+                {
+                    "href": "/heartalexinception.html",
+                    "img_src": "/alex/heartalexinception.png",
+                    "img_alt": ":heartalexinception:"
+                }
+            ],
+            [
+                {
+                    "href": "/justnoalex.html",
+                    "img_src": "/alex/justnoalex.png",
+                    "img_alt": ":justnoalex:"
+                },
+                {
+                    "href": "/maybealex.html",
+                    "img_src": "/alex/maybealex.png",
+                    "img_alt": ":maybealex:"
+                },
+                {
+                    "href": "/yesalex.html",
+                    "img_src": "/alex/yesalex.png",
+                    "img_alt": ":yesalex:"
+                }
+            ],
+            [
+                {
+                    "href": "/stonksalex.html",
+                    "img_src": "/alex/stonksalex.png",
+                    "img_alt": ":stonksalex:"
+                },
+                {
+                    "href": "/rage-alex.html",
+                    "img_src": "/alex/rage-alex.gif",
+                    "img_alt": ":rage-alex:"
+                }
+            ]
+        ],
+        "template": "oops-all-alex.html.j2"
+    },
+    {
         "path": "justnoalex.html",
-        "canonical_path": "",
         "title": "Just No Alex!",
         "description": "Just... no Alex.",
         "img_src": "/alex/justnoalex.png",
+        "img_href": "/party-noalex.html",
         "emote_name": ":justnoalex:",
         "template": "alex.html.j2"
     },
@@ -22,6 +73,7 @@
         "title": "Yes Alex",
         "description": "Yes Alex.",
         "img_src": "/alex/yesalex.png",
+        "img_href": "/party-yesalex.html",
         "emote_name": ":yesalex:",
         "template": "alex.html.j2"
     },
@@ -54,6 +106,7 @@
         "title": "Stonks Alex!",
         "description": "Stonks Alex.",
         "img_src": "/alex/stonksalex.png",
+        "img_href": "/party-stonksalex.html",
         "emote_name": ":stonksalex:",
         "template": "alex.html.j2"
     },

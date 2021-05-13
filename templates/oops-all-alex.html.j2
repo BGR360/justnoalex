@@ -1,0 +1,17 @@
+{% extends "base.html.j2" %}
+{% block body %}
+  <div class="container column">
+    <div class="title">
+      <h1><font face="Comic sans MS">{{ title }}</font></h1>
+    </div>
+    {% for row in alexes %}
+      <div class="row">
+      {% for alex in row %}
+        <a class="oops-all-alex" href="{{ alex.href }}">
+          <img src="{{ alex.img_src }}" alt="{{ alex.img_alt }}">
+        </a>
+      {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
