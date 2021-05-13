@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Site Properties -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="/alex.css">
+
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Page Properties -->
+
+  <title>{{ title }}</title>
+
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta name="description" content="{{ description }}">
+  <link rel="canonical" href="https://justnoalex.com/{{ canonical_path }}">
+  {% block head %}{% endblock %}
+</head>
+
+<body>
+  <!-- https://github.com/bgr360/justnoalex -->
+  {% block body %}
+  {% endblock %}
+</body>
+</html>

@@ -5,7 +5,141 @@
         "title": "Just No Alex!",
         "description": "Just... no Alex.",
         "img_src": "/alex/justnoalex.png",
+        "img_href": "/oops-all-alex.html",
         "emote_name": ":justnoalex:",
+        "hide_name": true,
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "oops-all-alex.html",
+        "title": "Oops, All Alex!",
+        "description": "Oops, all Alex!",
+        "alexes": [
+            [
+                {
+                    "href": "/heartalex.html",
+                    "img_src": "/alex/heartalex.png",
+                    "img_alt": ":heartalex:"
+                },
+                {
+                    "href": "/heartalexinception.html",
+                    "img_src": "/alex/heartalexinception.png",
+                    "img_alt": ":heartalexinception:"
+                }
+            ],
+            [
+                {
+                    "href": "/justnoalex.html",
+                    "img_src": "/alex/justnoalex.png",
+                    "img_alt": ":justnoalex:"
+                },
+                {
+                    "href": "/maybealex.html",
+                    "img_src": "/alex/maybealex.png",
+                    "img_alt": ":maybealex:"
+                },
+                {
+                    "href": "/yesalex.html",
+                    "img_src": "/alex/yesalex.png",
+                    "img_alt": ":yesalex:"
+                }
+            ],
+            [
+                {
+                    "href": "/stonksalex.html",
+                    "img_src": "/alex/stonksalex.png",
+                    "img_alt": ":stonksalex:"
+                },
+                {
+                    "href": "/rage-alex.html",
+                    "img_src": "/alex/rage-alex.gif",
+                    "img_alt": ":rage-alex:"
+                }
+            ]
+        ],
+        "template": "oops-all-alex.html.j2"
+    },
+    {
+        "path": "justnoalex.html",
+        "title": "Just No Alex!",
+        "description": "Just... no Alex.",
+        "img_src": "/alex/justnoalex.png",
+        "img_href": "/party-noalex.html",
+        "emote_name": ":justnoalex:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "yesalex.html",
+        "title": "Yes Alex",
+        "description": "Yes Alex.",
+        "img_src": "/alex/yesalex.png",
+        "img_href": "/party-yesalex.html",
+        "emote_name": ":yesalex:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "maybealex.html",
+        "title": "Maybe Alex",
+        "description": "Maybe Alex.",
+        "img_src": "/alex/maybealex.png",
+        "emote_name": ":maybealex:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "heartalex.html",
+        "title": "Heart Alex",
+        "description": "Heart Alex.",
+        "img_src": "/alex/heartalex.png",
+        "emote_name": ":heartalex:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "heartalexinception.html",
+        "title": "Heart Alex Inception!",
+        "description": "Heart Alex Inception.",
+        "img_src": "/alex/heartalexinception.png",
+        "emote_name": ":heartalexinception:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "stonksalex.html",
+        "title": "Stonks Alex!",
+        "description": "Stonks Alex.",
+        "img_src": "/alex/stonksalex.png",
+        "img_href": "/party-stonksalex.html",
+        "emote_name": ":stonksalex:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "rage-alex.html",
+        "title": "Rage Alex >:(",
+        "description": "Rage Alex.",
+        "img_src": "/alex/rage-alex.gif",
+        "emote_name": ":rage-alex:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "party-noalex.html",
+        "title": "Just No Alex (Party)!",
+        "description": "Stonks Alex (Party)!",
+        "img_src": "/alex/party-noalex.gif",
+        "emote_name": ":party-noalex:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "party-yesalex.html",
+        "title": "Yes Alex (Party)!",
+        "description": "Yes Alex (Party)!",
+        "img_src": "/alex/party-yesalex.gif",
+        "emote_name": ":party-yesalex:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "party-stonksalex.html",
+        "title": "Stonks Alex (Party)!",
+        "description": "Stonks Alex (Party)!",
+        "img_src": "/alex/party-stonksalex.gif",
+        "emote_name": ":party-stonksalex:",
         "template": "alex.html.j2"
     },
     {

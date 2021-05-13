@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+  height: 100vh;
   margin: 0;
 }
 
@@ -11,8 +11,67 @@ body {
   align-items: center;
 }
 
+.column {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-shrink: 1;
+  margin-top: 3.5vh;
+  margin-bottom: 5vh;
+}
+
+.title {
+  flex-grow: 0;
+}
+
 .alex {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 50%;
   max-height: 350px;
   max-width: 350px;
-  width: 50%
+}
+
+.alex div {
+  flex-grow: 9;
+}
+
+.alex a {
+  flex-grow: 9;
+}
+
+.alex div img {
+  width: 100%;
+}
+
+.alex a img {
+  width: 100%;
+}
+
+.alex p {
+  justify-content: center;
+  flex-grow: 1;
+  font-size: large;
+  text-align: center;
+}
+
+.oops-all-alex {
+  display: flex;
+  justify-content: center;
+  width: 20vh;
+  max-width: 20vw;
+}
+
+.oops-all-alex img {
+  width: 100%;
 }
