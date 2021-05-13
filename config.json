@@ -1,0 +1,11 @@
+[
+    {
+        "path": "index.html",
+        "canonical_path": "",
+        "title": "Just No Alex!",
+        "description": "Just... no Alex.",
+        "img_src": "/alex/justnoalex.png",
+        "emote_name": ":justnoalex:",
+        "template": "alex.html.j2"
+    }
+]
