@@ -57,6 +57,11 @@ def gen_pages(input_dir, print_fn):
 
     # Render templates to www/
     for config in configs:
+        # Normalize config
+        if 'canonical_path' not in config:
+            config['canonical_path'] = config['path']
+
+        # Render template
         template_name = config['template']
         out_path = os.path.join(www_dir, config['path'])
         with open(out_path, 'w') as outfile:
