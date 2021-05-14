@@ -51,6 +51,11 @@
                     "img_alt": ":stonksalex:"
                 },
                 {
+                    "href": "alexglasses.html",
+                    "img_src": "/alex/alexglasses.gif",
+                    "img_alt": ":alex-glasses"
+                },
+                {
                     "href": "/rage-alex.html",
                     "img_src": "/alex/rage-alex.gif",
                     "img_alt": ":rage-alex:"
