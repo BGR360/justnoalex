@@ -222,5 +222,13 @@
         "img_src": "/alex/party-stonksalex.gif",
         "emote_name": ":party-stonksalex:",
         "template": "alex.html.j2"
+    },
+    {
+        "path": "alexglasses.html",
+        "title": "Alex Glasses",
+        "description": "Alex Glasses!",
+        "img_src": "/alex/alexglasses.gif",
+        "emote_name": ":alex-glasses:",
+        "template": "alex.html.j2"
     }
 ]
