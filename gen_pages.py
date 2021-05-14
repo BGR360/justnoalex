@@ -8,28 +8,20 @@ import shutil
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
-# Thanks @tzot
-# https://stackoverflow.com/a/600612
-def mkdirp(path):
-    try:
-        os.makedirs(path)
-    except OSError as exc:
-        if exc.errno == errno.EEXIST and os.path.isdir(path):
-            pass
-        else:
-            raise
-
-
 def render_template(env, template_name, context, outfile):
     template = env.get_template(template_name)
     rendered = template.render(context)
     outfile.write(rendered)
+    return rendered
 
 
 def gen_pages(input_dir, print_fn):
     config_path = os.path.join(input_dir, 'config.json')
     with open(config_path) as config_file:
         configs = json.load(config_file)
+
+    # print_fn('Config:')
+    # print_fn(configs)
 
     # Clear out www/.
     www_dir = os.path.join(input_dir, 'www')
@@ -65,8 +57,9 @@ def gen_pages(input_dir, print_fn):
         template_name = config['template']
         out_path = os.path.join(www_dir, config['path'])
         with open(out_path, 'w') as outfile:
-            render_template(env, template_name, config, outfile)
+            output = render_template(env, template_name, config, outfile)
         print_fn(f'Rendered {template_name} --> {out_path}')
+        # print_fn(f'{output}\n')
 
 
 def main():
