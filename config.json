@@ -22,6 +22,16 @@
                     "img_alt": ":heartalex:"
                 },
                 {
+                    "href": "/block-alex.html",
+                    "img_src": "/alex/block-alex.png",
+                    "img_alt": ":block-alex:"
+                },
+                {
+                    "href": "/alexjh-persona.html",
+                    "img_src": "/alex/alexjh-persona.png",
+                    "img_alt": ":alexjh-persona:"
+                },
+                {
                     "href": "/heartalexinception.html",
                     "img_src": "/alex/heartalexinception.png",
                     "img_alt": ":heartalexinception:"
@@ -42,6 +52,33 @@
                     "href": "/yesalex.html",
                     "img_src": "/alex/yesalex.png",
                     "img_alt": ":yesalex:"
+                },
+                {
+                    "href": "/party-stonks-alex.html",
+                    "img_src": "/alex/party-stonks-alex.gif",
+                    "img_alt": ":party-stonks-alex:"
+                }
+            ],
+            [
+                {
+                    "href": "/noalex-persona.html",
+                    "img_src": "/alex/noalex-persona.png",
+                    "img_alt": ":noalex-persona:"
+                },
+                {
+                    "href": "/maybealex-persona.html",
+                    "img_src": "/alex/maybealex-persona.png",
+                    "img_alt": ":maybealex-persona:"
+                },
+                {
+                    "href": "/yesalex-persona.html",
+                    "img_src": "/alex/yesalex-persona.png",
+                    "img_alt": ":yesalex-persona:"
+                },
+                {
+                    "href": "/rage-alex-intensifies.html",
+                    "img_src": "/alex/rage-alex-intensifies.gif",
+                    "img_alt": ":rage-alex-intensifies:"
                 }
             ],
             [
@@ -59,6 +96,11 @@
                     "href": "/rage-alex.html",
                     "img_src": "/alex/rage-alex.gif",
                     "img_alt": ":rage-alex:"
+                },
+                {
+                    "href": "/return-to-office-alex.html",
+                    "img_src": "/alex/return-to-office-alex.png",
+                    "img_alt": ":return-to-office-alex:"
                 }
             ]
         ],
