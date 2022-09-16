@@ -196,5 +196,69 @@
         "img_src": "/alex/alexglasses.gif",
         "emote_name": ":alex-glasses:",
         "template": "alex.html.j2"
+    },
+    {
+        "path": "alexjh-persona.html",
+        "title": "AlexJH Persona",
+        "description": "AlexJH Persona!",
+        "img_src": "/alex/alexjh-persona.png",
+        "emote_name": ":alexjh-persona:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "noalex-persona.html",
+        "title": "NoAlex Persona",
+        "description": "NoAlex Persona!",
+        "img_src": "/alex/noalex-persona.png",
+        "emote_name": ":noalex-persona:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "maybealex-persona.html",
+        "title": "MaybeAlex Persona",
+        "description": "MaybeAlex Persona!",
+        "img_src": "/alex/maybealex-persona.png",
+        "emote_name": ":maybealex-persona:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "yesalex-persona.html",
+        "title": "YesAlex Persona",
+        "description": "YesAlex Persona!",
+        "img_src": "/alex/yesalex-persona.png",
+        "emote_name": ":yesealex-persona:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "rage-alex-intensifies.html",
+        "title": "Rage Alex Intensifies",
+        "description": "Rage Alex Intensifies!",
+        "img_src": "/alex/rage-alex-intensifies.gif",
+        "emote_name": ":rage-alex-intensifies:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "party-stonks-alex.html",
+        "title": "Party Stonks Alex",
+        "description": "Party Stonks Alex!",
+        "img_src": "/alex/party-stonks-alex.gif",
+        "emote_name": ":party-stonks-alex:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "block-alex.html",
+        "title": "Block Alex",
+        "description": "Block Alex!",
+        "img_src": "/alex/block-alex.png",
+        "emote_name": "block-alex:",
+        "template": "alex.html.j2"
+    },
+    {
+        "path": "return-to-office-alex.html",
+        "title": "Return to Office Alex",
+        "description": "Return to Office Alex!",
+        "img_src": "/alex/return-to-office-alex.png",
+        "emote_name": ":return-to-office-alex:",
+        "template": "alex.html.j2"
     }
 ]
